@@ -1,0 +1,9 @@
+<package format="2">
+  <name>package_1</name>
+  <version>0.0.1</version>
+  <description>Publica informações sobre uso de memória.</description>
+  <maintainer email="augustovassoler@gmail.com">Augusto Vassoler</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>rclpy</exec_depend>
+</package>

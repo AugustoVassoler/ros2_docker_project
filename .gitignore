@@ -1,0 +1,33 @@
+---
+
+## .gitignore
+
+Aqui está um `.gitignore` para evitar o rastreamento de arquivos indesejados, como artefatos de construção e arquivos específicos de sistema operacional.
+
+```gitignore
+# Ignore logs e artefatos de build
+build/
+install/
+log/
+.colcon/
+
+# Ignore arquivos temporários de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignore arquivos de cache Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore artefatos de execução
+*.swp
+*.swo
+
+# Ignore arquivos de IDE
+.vscode/
+.idea/
+*.iml
+
+# Ignore arquivos e configurações temporárias
+*~

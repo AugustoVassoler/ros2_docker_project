@@ -1,0 +1,10 @@
+<package format="2">
+  <name>package_2</name>
+  <version>0.0.1</version>
+  <description>Simula leitura de sensor com filtro.</description>
+  <maintainer email="augustovassoler@gmail.com">Augusto Vassoler</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_python</buildtool_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_srvs</exec_depend>
+</package>
